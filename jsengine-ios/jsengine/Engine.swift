@@ -25,7 +25,7 @@ public class Engine {
     var mIsRunning: Bool = false
 
     //MARK: - Singltone
-    static let sharedInstance = Engine(bundle: NSBundle.mainBundle())
+    public static let sharedInstance = Engine(bundle: NSBundle.mainBundle())
     
     //MARK: - Init
     public init(bundle: NSBundle) {
